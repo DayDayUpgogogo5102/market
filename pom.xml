@@ -7,6 +7,11 @@
     <groupId>top.imzlxiao</groupId>
     <artifactId>market</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>m-common</module>
+        <module>m-model</module>
+        <module>m-service</module>
+    </modules>
 
 
     <!--父工程使用pom打包方式-->
@@ -37,7 +42,7 @@
         <httpclient.version>4.5.13</httpclient.version>
     </properties>
 
-    <!--配置dependencyManagement锁定依赖的版本 并不是实际的依赖。-->
+    <!--配置dependencyManagement锁定依赖的版本-->
     <dependencyManagement>
         <dependencies>
             <dependency>
